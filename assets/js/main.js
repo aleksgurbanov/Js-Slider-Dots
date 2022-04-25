@@ -50,7 +50,7 @@ for (let i = 0; i < myslider.length; i++) {
 
 
 
-const dots = Array.from(document.querySelectorAll(".dots #span"));
+const dots = document.querySelectorAll(".dots #span");
 
 dots.forEach(dot => {
     dot.onclick = function() {
